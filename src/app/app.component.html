@@ -1,0 +1,29 @@
+<input mat-input type="text" readonly [value]="wyswietlanie()">
+<br>
+<div class="example-label">
+<div class="example-button-row">
+  <button mat-raised-button (click)="zmiana(1)" [value]="1" > 1</button>
+  <button mat-raised-button (click)="zmiana(2)" [value]="2" > 2</button>
+  <button mat-raised-button (click)="zmiana(3)" [value]="3" > 3</button>
+</div>
+  <br>
+  <div class="example-button-row">
+  <button mat-raised-button (click)="zmiana(4)" [value]="4" > 4</button>
+  <button mat-raised-button type="submit" (click)="zmiana(5)" value="5" > 5</button>
+  <button mat-raised-button (click)="zmiana(6)" [value]="4" > 6</button>
+  </div>
+  <br>
+  <div class="example-button-row">
+  <button mat-raised-button (click)="zmiana(7)" [value]="4" > 7</button>
+  <button mat-raised-button (click)="zmiana(8)" [value]="4" > 8</button>
+  <button mat-raised-button (click)="zmiana(9)" [value]="4" > 9</button>
+
+</div>
+  <br>
+  <div class="example-button-row">
+    <button mat-raised-button (click)="zmiana(0)" [value]="4" > 0</button>
+    <button mat-raised-button (click)="zerowanie()" [value]="1" > C </button>
+    <button mat-raised-button (click)="dodawanie($event)" [value]="1" > +</button>
+  </div>
+
+</div>
